@@ -7,32 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why do I need to test my backflow preventer every year in Cary?",
-    answer: "The Town of Cary (and NC state law) requires annual testing to ensure the check valves and relief ports are operating correctly. This prevents contaminated water from being siphoned back into the public drinking water supply if a pressure drop occurs."
+    question: "What exactly is a slab leak in a Dallas home?",
+    answer: "A slab leak occurs when a water or sewer pipe beneath your concrete foundation fails. In Dallas, this is often caused by the heavy clay soil shifting the house, which can snap or corrode older copper and cast-iron lines."
   },
   {
-    question: "How do I know when my backflow test is due?",
-    answer: "Most property owners receive a notification letter from the Town of Cary Water Department. However, tests are typically due on the anniversary of your installation or previous test. We can help you track your due date."
+    question: "How do you detect a slab leak without breaking my Dallas foundation?",
+    answer: "We use non-destructive electronic sonar and acoustic technology to 'hear' the leak. We also use thermal imaging to identify heat signatures from hot water leaks and gas-based tracer tests to find exact break points under the concrete."
   },
   {
-    question: "Do I need to be home for the backflow test?",
-    answer: "For exterior units, such as those for irrigation systems, you typically do not need to be home as long as we have clear access to the assembly. For interior commercial or residential units, we will need to schedule a time for access."
+    question: "Will my Dallas homeowner's insurance cover slab leak repair?",
+    answer: "Usually, Dallas insurance policies cover the 'access' and 'reconstruction' (getting to the pipe and fixing the floor), but may not cover the actual pipe repair itself. We provide detailed documentation to help you maximize your claim."
   },
   {
-    question: "What happens if my backflow preventer fails the test?",
-    answer: "If it fails, the Town of Cary gives you a grace period for repairs. As certified testers and repair specialists, we can often fix the unit on the same day by replacing worn rubber seals, springs, or cleaning out debris."
+    question: "How long does it take to detect a slab leak in Dallas?",
+    answer: "A professional detection typically takes 1.5 to 3 hours. We provide a full report on-site and can often begin repairs the same day to prevent further foundation damage."
   },
   {
-    question: "Do you submit the results to the Town of Cary for me?",
-    answer: "Yes! We handle the entire submittal process. We use the required electronic reporting systems to send your certified results directly to the Cary Water Department, saving you the paperwork."
+    question: "Is it better to repair the slab leak or re-route the pipe?",
+    answer: "In Dallas homes with multiple leaks or older copper plumbing, re-routing (running new lines through walls/attics) is often the superior choice. It eliminates the risk of future leaks in that line permanently. We evaluate both options for every customer."
   },
   {
-    question: "What is an RPZ vs. a Double Check Valve?",
-    answer: "Reduced Pressure Zone (RPZ) assemblies offer the highest protection and are required for 'high hazard' applications like irrigation. Double Check Valve Assemblies (DCVA) are used for lower hazard domestic lines. We test all certified types."
-  },
-  {
-    question: "How much does a backflow test cost in Cary, NC?",
-    answer: "Pricing typically ranges from $85 to $150 for residential irrigation units, depending on accessibility and reporting fees. Commercial testing costs vary by unit size. Call us at (877) 792-1410 for a quick quote."
+    question: "What are the first signs of a slab leak to watch for in Dallas?",
+    answer: "Watch for hot spots on the floor, a running water sound when nothing is on, cracks appearing in your drywall or tiles, or a significant jump in your Dallas utility bill."
   }
 ];
 
@@ -42,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Certification & Testing FAQ
+            Dallas Slab Leak FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Answers to common questions about backflow prevention and Town of Cary compliance.
+            Expert answers to the most common questions about foundation leaks in North Texas.
           </p>
         </div>
 

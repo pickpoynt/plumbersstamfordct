@@ -25,7 +25,7 @@ const RandomLinks = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center items-center gap-6">
           <span className="text-slate-400 font-medium text-sm lg:mr-4 uppercase tracking-widest text-center w-full lg:w-auto mb-4 lg:mb-0">
-            Certified Partners Network
+            Trusted State-Wide Partners
           </span>
           {links.map((link, index) => (
             <a

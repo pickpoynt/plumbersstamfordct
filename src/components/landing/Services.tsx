@@ -1,53 +1,53 @@
-import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, ClipboardCheck, Gauge } from "lucide-react";
+import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, Microscope } from "lucide-react";
 
 const services = [
   {
-    icon: Gauge,
-    title: "Annual Certification",
-    description: "Town of Cary required annual testing for residential and commercial backflow prevention assemblies to ensure local water safety.",
-    link: "#backflow-info"
+    icon: Microscope,
+    title: "Sonar Leak Detection",
+    description: "Using world-class acoustic technology to pinpoint the exact location of water leaks under your Dallas foundation with pinpoint accuracy.",
+    link: "#dallas-leak-info"
   },
   {
     icon: Hammer,
-    title: "Assembly Repair",
-    description: "Expert repair for all major brands of backflow preventers. We carry many parts on-site to fix failures immediately and save you a second trip.",
-    link: "#backflow-info"
-  },
-  {
-    icon: Droplets,
-    title: "Irrigation Backflow",
-    description: "Dedicated testing and winterization for lawn irrigation systems. We check RPZ and DCVA units for proper operation and debris clearance.",
-    link: "#backflow-info"
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Official Compliance",
-    description: "Electronic submission of your test results directly to the Town of Cary, Apex, Morrisville, and Wake County utility departments.",
-    link: "#backflow-info"
-  },
-  {
-    icon: Shield,
-    title: "New Installation",
-    description: "Installing high-quality backflow prevention assemblies for new construction, commercial upgrades, or replacing old, obsolete units.",
-    link: "#backflow-info"
-  },
-  {
-    icon: Waves,
-    title: "Thermal Expansion",
-    description: "Inspection and installation of thermal expansion tanks, which are often required alongside backflow preventers to protect your water heater.",
-    link: "#backflow-info"
+    title: "Direct Access Repair",
+    description: "Precision repair of compromised pipes beneath your slab. We utilize minimally invasive techniques to protect your home's flooring and structure.",
+    link: "#dallas-leak-info"
   },
   {
     icon: Activity,
-    title: "Pressure Testing",
-    description: "Comprehensive diagnostic pressure testing to identify internal leaks or failing check valves within the backflow assembly housing.",
-    link: "#backflow-info"
+    title: "Thermal Mapping",
+    description: "Infrared thermal imaging to detect hot water slab leaks behind walls and under floors without removing a single brick or tile.",
+    link: "#dallas-leak-info"
   },
   {
     icon: Zap,
-    title: "Emergency Service",
-    description: "Rapid response for leaking or burst backflow preventers. We provide emergency shutoff and repair to protect your Cary property.",
-    link: "#backflow-info"
+    title: "Emergency Response",
+    description: "Available 24/7 across the DFW Metroplex for major slab leak floods. We act fast to mitigate foundation damage and structural shifting.",
+    link: "#dallas-leak-info"
+  },
+  {
+    icon: Shield,
+    title: "Pipe Re-Routing",
+    description: "Strategically bypassing active under-slab leaks with new, above-floor plumbing lines, providing a permanent solution to persistent issues.",
+    link: "#dallas-leak-info"
+  },
+  {
+    icon: Waves,
+    title: "Sewer Leak Testing",
+    description: "Specialized hydrostatic testing to identify sanitary sewer leaks under your slab which can be catastrophic to your Dallas foundation.",
+    link: "#dallas-leak-info"
+  },
+  {
+    icon: AlertTriangle,
+    title: "Foundation Risk Check",
+    description: "Comprehensive diagnostics to see if your foundation's movement is being caused by an active water leak beneath the slab.",
+    link: "#dallas-leak-info"
+  },
+  {
+    icon: Droplets,
+    title: "Copper To PEX Swaps",
+    description: "Replacing old, corroded copper lines under your foundation with high-durability PEX, eliminating future slab leak risks permanently.",
+    link: "#dallas-leak-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Certified Backflow Testing in Cary
+            Specialized Slab Leak Detection in Dallas
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Providing full-service certification, repair, and installation for all types of backflow prevention assemblies in Wake County.
+            North Texas foundations face unique challenges. We provide the most advanced diagnostic and repair services tailored for Dallas soil conditions.
           </p>
         </div>
 
