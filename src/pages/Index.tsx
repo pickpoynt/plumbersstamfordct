@@ -15,9 +15,9 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>musty odor removal pitman nj | Pitman Odor Neutralization Pros</title>
-        <meta name="description" content="musty odor removal pitman nj. Professional molecular neutralization for old house smells, damp basements, and crawlspace odors in Pitman, NJ. Call (380) 266-0944!" />
-        <meta name="keywords" content="musty odor removal pitman nj, old house smell solution Pitman, basement odor Gloucester County, dampness remediation NJ" />
+        <title>MUSTY ODOR REMOVAL PITMAN NJ | PITMAN ODOR NEUTRALIZATION PROS</title>
+        <meta name="description" content="MUSTY ODOR REMOVAL PITMAN NJ. Professional molecular neutralization for old house smells, damp basements, and crawlspace odors in Pitman, NJ. Call (380) 266-0944!" />
+        <meta name="keywords" content="MUSTY ODOR REMOVAL PITMAN NJ, old house smell solution Pitman, basement odor Gloucester County, dampness remediation NJ" />
         <link rel="canonical" href="https://pitman-odor-neutralization.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
@@ -103,7 +103,7 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="musty odor removal pitman nj | Odor Neutralization Pros" />
+        <meta property="og:title" content="MUSTY ODOR REMOVAL PITMAN NJ | PITMAN ODOR NEUTRALIZATION PROS" />
         <meta property="og:description" content="Professional musty odor removal for historic homes and basements in Pitman, NJ. Science-based molecular neutralization." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://pitman-odor-neutralization.com/" />
@@ -115,8 +115,8 @@ const Index = () => {
         <Hero
           title={
             <>
-              musty odor removal pitman nj
-              <span className="block text-indigo-400 mt-2">Pitman Odor Neutralization Pros: Scientific Removal</span>
+              MUSTY ODOR REMOVAL PITMAN NJ
+              <span className="block text-indigo-400 mt-2">PITMAN ODOR NEUTRALIZATION PROS: SCIENTIFIC REMOVAL</span>
             </>
           }
           subtitle="Is a persistent musty smell making your historic Pitman home unbearable? We use advanced molecular neutralization and HEPA air scrubbing to eliminate odors at the source—not just mask them. Restore your home's air today."

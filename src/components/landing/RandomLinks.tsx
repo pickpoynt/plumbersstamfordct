@@ -2,42 +2,41 @@ import { ExternalLink } from "lucide-react";
 
 const links = [
   {
-    name: "Sill Structural Drying",
+    name: "Atmospheric Restoration",
     url: "https://smokeodorremovalfromupholsterywhite.vercel.app/"
   },
   {
-    name: "HVAC Condensation Mitigation",
+    name: "Basement Vapor Science",
     url: "https://firedamagecleanupforlogcabinswhitef.vercel.app/"
   },
   {
-    name: "Microbial Extraction Science",
+    name: "Chemical Odor Control",
     url: "https://odorremovalafterwaterdamageiowacolo.vercel.app/"
   },
   {
-    name: "King County Remediation",
+    name: "Southern NJ Remediation",
     url: "https://sootremovalfromwallsinspartawiscons.vercel.app/"
   },
 ];
 
 const RandomLinks = () => {
   return (
-    <section className="py-12 bg-slate-50 border-t border-slate-100">
+    <section className="py-12 bg-slate-50 border-t border-slate-100 italic">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center items-center gap-6">
-          <span className="text-slate-400 font-medium text-sm lg:mr-4 uppercase tracking-widest text-center w-full lg:w-auto mb-4 lg:mb-0">
-            Duvall's Remediation Network
+          <span className="text-slate-400 font-bold text-[10px] lg:mr-4 uppercase tracking-[0.3em] text-center w-full lg:w-auto mb-4 lg:mb-0">
+            PITMAN ODOR RESET PARTNERS
           </span>
-
 
           {links.map((link, index) => (
             <a
               key={index}
               href={link.url}
-              className="group flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-emerald-600 hover:border-emerald-300 hover:shadow-lg hover:shadow-emerald-500/10 transition-all duration-300"
+              className="group flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-indigo-600 hover:border-indigo-300 hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-300"
             >
-              <span className="font-bold text-sm tracking-tight">{link.name}</span>
-              <div className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-emerald-50 transition-colors">
-                <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-emerald-600 transition-colors" />
+              <span className="font-bold text-xs tracking-[0.1em] uppercase">{link.name}</span>
+              <div className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-indigo-50 transition-colors">
+                <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-indigo-600 transition-colors" />
               </div>
             </a>
           ))}

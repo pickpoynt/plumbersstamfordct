@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Why does black mold keep returning to my window sills?",
-    answer: "In Duvall, the temperature difference between outdoor air and indoor heating creates condensation on glass. This water pools on the sill, feeding mold. Permanent removal requires addressing the thermal bridging and applying antimicrobial barriers, not just wiping the surface."
+    question: "What actually causes that 'musty' smell in historic Pitman homes?",
+    answer: "The smell is caused by mVOCs (Microbial Volatile Organic Compounds)—gases emitted by dormant or active microbial growth in damp areas like basements and crawlspaces. In Pitman, high humidity and older construction often trap these gases, requiring molecular neutralization rather than just ventilation."
   },
   {
-    question: "Is the black mold on my windows toxic?",
-    answer: "Many varieties of black mold found on window sills, including Stachybotrys, can produce mycotoxins. These can trigger respiratory issues, especially in children. We recommend professional extraction rather than 'bleaching,' which often leaves the root structure intact."
+    question: "Is the MUSTY ODOR REMOVAL PITMAN NJ process safe for pets?",
+    answer: "Yes. We use advanced hydroxyl technology and HEPA air scrubbing, which are 100% non-toxic and ozone-free. Unlike older ozone treatments, your family and pets can remain in the home during the neutralization process."
   },
   {
-    question: "Can't I just use bleach to clean the window sill?",
-    answer: "Bleach is mostly water; while it may change the color of the mold on the surface, the moisture can actually feed the roots (hyphae) inside porous wood sills. We use industrial-grade, non-toxic fungicides that penetrate the wood to kill the colony at its source."
+    question: "How long does a typical odor neutralization take?",
+    answer: "Most Pitman residential properties can be fully reset within 24 to 48 hours. This includes source identification, atmospheric scrubbing, and molecular neutralization. More severe crawlspace issues may require an additional day for vapor barrier installation."
   },
   {
-    question: "Will you need to replace my window frames?",
-    answer: "In 90% of cases, we can save the window frames and sills through our deep-extraction and sealing process. We only recommend replacement if the wood has sustained significant structural rot that compromises the window's integrity."
+    question: "Can't I just use candles or air fresheners?",
+    answer: "Candles and sprays only 'mask' the smell by overwhelming your olfactory receptors. They do nothing to remove the toxic compounds from the air. Our process chemically destroys the odor molecules, ensuring the smell doesn't return once the scent wears off."
   },
   {
-    question: "How long does the window remediation process take?",
-    answer: "Most Duvall residential window projects are completed in a single day. This includes containment setup, HEPA vacuuming, fungal extraction, and the application of our PNW-certified moisture barriers."
+    question: "Why does the smell get worse in the summer?",
+    answer: "Humidity is the fuel for microbial activity. Higher summer temperatures in Gloucester County increase the off-gassing of hidden colonies, making the musty odor much more noticeable. We solve this by addressing the vapor intrusion points."
   }
 ];
 
@@ -27,11 +27,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
-              Window Mold Remediation FAQ
+            <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
+              Neutralization & <span className="text-indigo-600">Odor FAQ</span>
             </h2>
-            <p className="text-xl text-slate-600 font-medium leading-relaxed">
-              Expert answers to your questions about black mold and window condensation in Duvall, Washington.
+            <p className="text-xl text-slate-600 font-medium leading-relaxed italic">
+              Expert answers to common questions about MUSTY ODOR REMOVAL PITMAN NJ and historic home air quality restoration in Gloucester County.
             </p>
           </div>
 
@@ -39,12 +39,12 @@ const FAQ = () => {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="p-8 rounded-3xl bg-white border border-slate-100 hover:border-emerald-200 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-emerald-500/5 group"
+                className="p-8 rounded-3xl bg-white border border-slate-100 hover:border-indigo-200 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-indigo-500/5 group"
               >
-                <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-emerald-700 transition-colors flex items-start gap-3">
-                  <span className="text-emerald-500">Q:</span> {faq.question}
+                <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-indigo-700 transition-colors flex items-start gap-3">
+                  <span className="text-indigo-500">Q:</span> {faq.question}
                 </h3>
-                <p className="text-slate-600 leading-relaxed font-medium pl-8 border-l-2 border-emerald-100">
+                <p className="text-slate-600 leading-relaxed font-medium pl-8 border-l-2 border-indigo-100">
                   {faq.answer}
                 </p>
               </div>

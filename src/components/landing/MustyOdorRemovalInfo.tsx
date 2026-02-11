@@ -10,7 +10,7 @@ const MustyOdorRemovalInfo = () => {
                         <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
                             <img
                                 src="https://images.unsplash.com/photo-1490312278390-ab6414f8d29b?auto=format&fit=crop&q=80"
-                                alt="musty odor removal pitman nj"
+                                alt="MUSTY ODOR REMOVAL PITMAN NJ"
                                 className="w-full h-auto"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
@@ -31,11 +31,11 @@ const MustyOdorRemovalInfo = () => {
 
                     <div className="lg:w-1/2">
                         <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 leading-tight">
-                            Science-Backed <span className="text-indigo-600 uppercase">Odor Elimination</span> for Gloucester County
+                            Science-Backed <span className="text-indigo-600 uppercase">ODOR ELIMINATION</span> for Gloucester County
                         </h2>
 
-                        <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                            In Pitman, NJ, the combination of historic architecture and high humidity leads to persistent "old house" smells. These odors aren't just annoying; they are often caused by <strong className="text-slate-900 uppercase">mVOCs</strong> (microbial Volatile Organic Compounds) that indicate active biological growth in basements and crawlspaces.
+                        <p className="text-lg text-slate-600 mb-8 leading-relaxed italic">
+                            In Pitman, NJ, the combination of historic architecture and high humidity leads to persistent MUSTY odors. These are typically caused by <strong className="text-slate-900 uppercase">mVOCs</strong> (microbial Volatile Organic Compounds) that indicate active biological activity in crawlspaces.
                         </p>
 
                         <div className="space-y-6">
@@ -71,9 +71,9 @@ const MustyOdorRemovalInfo = () => {
                         <div className="mt-10 flex flex-col sm:flex-row items-center gap-6">
                             <a
                                 href="tel:3802660944"
-                                className="w-full sm:w-auto px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-slate-800 transition-all shadow-xl"
+                                className="w-full sm:w-auto px-8 py-4 bg-indigo-600 text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-600/20 uppercase tracking-widest"
                             >
-                                <Phone className="w-5 h-5 text-indigo-400" />
+                                <Phone className="w-5 h-5 text-white" />
                                 (380) 266-0944
                             </a>
                             <div className="flex -space-x-3">
@@ -82,7 +82,7 @@ const MustyOdorRemovalInfo = () => {
                                         NJ
                                     </div>
                                 ))}
-                                <div className="pl-4 text-sm font-bold text-slate-500 italic">
+                                <div className="pl-4 text-sm font-bold text-slate-500 italic uppercase tracking-wider">
                                     Serving Gloucester County since 2012
                                 </div>
                             </div>
