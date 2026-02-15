@@ -7,17 +7,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center">
                 <Hammer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight">DALLAS</span>
-                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">PLUMBING PROS</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight">SAN ANTONIO</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">PLUMBING PROS</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              Dallas's trusted plumbing specialists.
-              Restoring your home's comfort reliably and efficiently.
+              San Antonio's trusted plumbing specialists.
+              Expert solutions for the Alamo City community.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -75,7 +75,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Service Region</p>
                   <p className="text-white font-bold">
-                    Dallas & Surrounding Areas
+                    San Antonio & Bexar County
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} DALLAS PLUMBING PROS.
+            © {new Date().getFullYear()} SAN ANTONIO PLUMBING PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
@@ -101,19 +101,19 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Dallas Plumbing Pros",
+          "name": "San Antonio Plumbing Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Dallas",
+            "addressLocality": "San Antonio",
             "addressRegion": "TX",
-            "postalCode": "75201",
+            "postalCode": "78205",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "32.7767",
-            "longitude": "-96.7970"
+            "latitude": "29.4241",
+            "longitude": "-98.4936"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}

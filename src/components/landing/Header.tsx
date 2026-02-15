@@ -38,9 +38,9 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                DALLAS
+                SAN ANTONIO
               </span>
-              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-blue-600" : "text-blue-400"}`}>
+              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
                 PLUMBING <span className="text-[10px] opacity-70">PROS</span>
               </span>
             </div>
@@ -70,7 +70,7 @@ const Header = () => {
                 (877) 792-1410
               </a>
             </div>
-            <Button className={`${isScrolled ? "bg-blue-600 hover:bg-blue-700 shadow-blue-900/20" : "bg-white text-slate-900 hover:bg-blue-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
+            <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700 shadow-indigo-900/20" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
               <a href="#contact">Request Service</a>
             </Button>
           </div>
@@ -110,7 +110,7 @@ const Header = () => {
               <a href="tel:8777921410" className="text-3xl font-bold text-blue-500 block mb-6">
                 (877) 792-1410
               </a>
-              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
+              <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
                 <a href="#contact">Book Now</a>
               </Button>
             </div>

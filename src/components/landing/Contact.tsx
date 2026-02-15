@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                DALLAS PLUMBING PROS
+                SAN ANTONIO PLUMBING PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule a <span className="text-blue-600">Plumbing Service</span>
+                Schedule a <span className="text-indigo-600">San Antonio Plumber</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Don't wait for a small leak to become a flood. If you have dripping faucets, clogged drains, or water heater issues, our Dallas team can diagnose and fix the issue fast.
+                Don't let a small leak to become a flood. If you have dripping faucets, clogged drains, or water heater issues, our San Antonio team can diagnose and fix the issue fast.
               </p>
 
               <div className="space-y-8">
@@ -47,8 +47,8 @@ const Contact = () => {
                     <MapPin className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Dallas & Surrounding Areas</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
+                    <p className="text-xl font-bold text-slate-900">San Antonio & Greater Bexar County</p>
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                   Request Service
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *Fast response for plumbing emergencies in Dallas
+                  *Fast response for plumbing emergencies in San Antonio
                 </p>
               </form>
             </div>

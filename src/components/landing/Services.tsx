@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-indigo-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Dallas homeowners trust us for expert plumbing diagnostics and repair. We use technology to solve problems quickly and effectively.
+            San Antonio homeowners trust us for expert plumbing diagnostics and repair. We use technology to solve problems efficiently for the Alamo City.
           </p>
         </div>
 
